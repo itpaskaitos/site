@@ -12,6 +12,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  overflow-y: hidden;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -299,7 +303,8 @@ section {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    /* display: block; */
+    display: none;
   }
 
   .navbar ul {
